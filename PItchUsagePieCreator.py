@@ -42,6 +42,7 @@ def create_pie_charts(pitch_usage):
     plt.pie(
         sizes,
         labels = labels,
+        colors = colors,
         autopct='%1.1f%%',
         startangle=90,
         counterclock=False
